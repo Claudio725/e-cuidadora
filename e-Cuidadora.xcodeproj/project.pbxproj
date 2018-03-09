@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24279B9E2052AF0800B6B983 /* Parchment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24279B9F2052AF0800B6B983 /* Parchment.framework */; };
+		24279BA22052C12C00B6B983 /* ClientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24279BA12052C12C00B6B983 /* ClientesViewController.swift */; };
+		24279BA42052C24A00B6B983 /* PacientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24279BA32052C24A00B6B983 /* PacientesViewController.swift */; };
+		24279BA62052EDFB00B6B983 /* aberturanova.png in Resources */ = {isa = PBXBuildFile; fileRef = 24279BA52052EDFB00B6B983 /* aberturanova.png */; };
+		246A449A2052AA54001F5121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246A44992052AA54001F5121 /* Assets.xcassets */; };
+		246A449D2052AA54001F5121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246A449B2052AA54001F5121 /* LaunchScreen.storyboard */; };
+		246A44AB2052AB4A001F5121 /* AgendamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A52052AB4A001F5121 /* AgendamentoViewController.swift */; };
+		246A44AC2052AB4A001F5121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A62052AB4A001F5121 /* AppDelegate.swift */; };
+		246A44AD2052AB4A001F5121 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A72052AB4A001F5121 /* IndexViewController.swift */; };
+		246A44AE2052AB4A001F5121 /* PagamentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A82052AB4A001F5121 /* PagamentosViewController.swift */; };
+		246A44AF2052AB4A001F5121 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A92052AB4A001F5121 /* UIView+constraints.swift */; };
+		246A44B02052AB4A001F5121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44AA2052AB4A001F5121 /* ViewController.swift */; };
+		246A44B22052AB9C001F5121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246A44B12052AB9C001F5121 /* Main.storyboard */; };
+		246A44B42052ADBC001F5121 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 246A44B32052ADBC001F5121 /* Podfile */; };
+		ED4F1C17F95AF57D6FEA099B /* Pods_e_Cuidadora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE77B6C1878BBADFA907330 /* Pods_e_Cuidadora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24279B9F2052AF0800B6B983 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24279BA02052AFEC00B6B983 /* Parchment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parchment.h; sourceTree = "<group>"; };
+		24279BA12052C12C00B6B983 /* ClientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientesViewController.swift; sourceTree = "<group>"; };
+		24279BA32052C24A00B6B983 /* PacientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientesViewController.swift; sourceTree = "<group>"; };
+		24279BA52052EDFB00B6B983 /* aberturanova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aberturanova.png; sourceTree = "<group>"; };
+		246A448F2052AA54001F5121 /* e-Cuidadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Cuidadora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246A44992052AA54001F5121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246A449C2052AA54001F5121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		246A449E2052AA54001F5121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246A44A52052AB4A001F5121 /* AgendamentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendamentoViewController.swift; sourceTree = "<group>"; };
+		246A44A62052AB4A001F5121 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		246A44A72052AB4A001F5121 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		246A44A82052AB4A001F5121 /* PagamentosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagamentosViewController.swift; sourceTree = "<group>"; };
+		246A44A92052AB4A001F5121 /* UIView+constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		246A44AA2052AB4A001F5121 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		246A44B12052AB9C001F5121 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		246A44B32052ADBC001F5121 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4DE77B6C1878BBADFA907330 /* Pods_e_Cuidadora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_Cuidadora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BCE59916D00A501F2856A /* Pods-e-Cuidadora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Cuidadora.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora.release.xcconfig"; sourceTree = "<group>"; };
+		CF6C9A763E467D6E1A7553CD /* Pods-e-Cuidadora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Cuidadora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246A448C2052AA54001F5121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24279B9E2052AF0800B6B983 /* Parchment.framework in Frameworks */,
+				ED4F1C17F95AF57D6FEA099B /* Pods_e_Cuidadora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246A44862052AA54001F5121 = {
+			isa = PBXGroup;
+			children = (
+				246A44912052AA54001F5121 /* e-Cuidadora */,
+				246A44902052AA54001F5121 /* Products */,
+				24279BA02052AFEC00B6B983 /* Parchment.h */,
+				246A44B32052ADBC001F5121 /* Podfile */,
+				9EA399E9E9766EE7289E030B /* Pods */,
+				AFFB0AA06236EEE3EBD827B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		246A44902052AA54001F5121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246A448F2052AA54001F5121 /* e-Cuidadora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246A44912052AA54001F5121 /* e-Cuidadora */ = {
+			isa = PBXGroup;
+			children = (
+				246A44A42052AB4A001F5121 /* Controllers */,
+				246A44992052AA54001F5121 /* Assets.xcassets */,
+				246A449B2052AA54001F5121 /* LaunchScreen.storyboard */,
+				246A449E2052AA54001F5121 /* Info.plist */,
+				246A44B12052AB9C001F5121 /* Main.storyboard */,
+				24279BA52052EDFB00B6B983 /* aberturanova.png */,
+			);
+			path = "e-Cuidadora";
+			sourceTree = "<group>";
+		};
+		246A44A42052AB4A001F5121 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				246A44A52052AB4A001F5121 /* AgendamentoViewController.swift */,
+				246A44A62052AB4A001F5121 /* AppDelegate.swift */,
+				246A44A72052AB4A001F5121 /* IndexViewController.swift */,
+				246A44A82052AB4A001F5121 /* PagamentosViewController.swift */,
+				246A44A92052AB4A001F5121 /* UIView+constraints.swift */,
+				246A44AA2052AB4A001F5121 /* ViewController.swift */,
+				24279BA12052C12C00B6B983 /* ClientesViewController.swift */,
+				24279BA32052C24A00B6B983 /* PacientesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9EA399E9E9766EE7289E030B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF6C9A763E467D6E1A7553CD /* Pods-e-Cuidadora.debug.xcconfig */,
+				605BCE59916D00A501F2856A /* Pods-e-Cuidadora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFFB0AA06236EEE3EBD827B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24279B9F2052AF0800B6B983 /* Parchment.framework */,
+				4DE77B6C1878BBADFA907330 /* Pods_e_Cuidadora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246A448E2052AA54001F5121 /* e-Cuidadora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246A44A12052AA54001F5121 /* Build configuration list for PBXNativeTarget "e-Cuidadora" */;
+			buildPhases = (
+				697398519B47F7326238023A /* [CP] Check Pods Manifest.lock */,
+				246A448B2052AA54001F5121 /* Sources */,
+				246A448C2052AA54001F5121 /* Frameworks */,
+				246A448D2052AA54001F5121 /* Resources */,
+				1E1D5F14D0A3C40BEF13BF42 /* [CP] Embed Pods Frameworks */,
+				82365B285175FC2764C95367 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-Cuidadora";
+			productName = "e-Cuidadora";
+			productReference = 246A448F2052AA54001F5121 /* e-Cuidadora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246A44872052AA54001F5121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CJSM;
+				TargetAttributes = {
+					246A448E2052AA54001F5121 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 246A448A2052AA54001F5121 /* Build configuration list for PBXProject "e-Cuidadora" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 246A44862052AA54001F5121;
+			productRefGroup = 246A44902052AA54001F5121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246A448E2052AA54001F5121 /* e-Cuidadora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246A448D2052AA54001F5121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24279BA62052EDFB00B6B983 /* aberturanova.png in Resources */,
+				246A44B22052AB9C001F5121 /* Main.storyboard in Resources */,
+				246A449D2052AA54001F5121 /* LaunchScreen.storyboard in Resources */,
+				246A44B42052ADBC001F5121 /* Podfile in Resources */,
+				246A449A2052AA54001F5121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1D5F14D0A3C40BEF13BF42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		697398519B47F7326238023A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-Cuidadora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82365B285175FC2764C95367 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246A448B2052AA54001F5121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246A44B02052AB4A001F5121 /* ViewController.swift in Sources */,
+				246A44AC2052AB4A001F5121 /* AppDelegate.swift in Sources */,
+				246A44AF2052AB4A001F5121 /* UIView+constraints.swift in Sources */,
+				24279BA42052C24A00B6B983 /* PacientesViewController.swift in Sources */,
+				246A44AB2052AB4A001F5121 /* AgendamentoViewController.swift in Sources */,
+				246A44AD2052AB4A001F5121 /* IndexViewController.swift in Sources */,
+				246A44AE2052AB4A001F5121 /* PagamentosViewController.swift in Sources */,
+				24279BA22052C12C00B6B983 /* ClientesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		246A449B2052AA54001F5121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246A449C2052AA54001F5121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246A449F2052AA54001F5121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		246A44A02052AA54001F5121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246A44A22052AA54001F5121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6C9A763E467D6E1A7553CD /* Pods-e-Cuidadora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5Y3DX3289;
+				INFOPLIST_FILE = "e-Cuidadora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cjsm.e-Cuidadora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		246A44A32052AA54001F5121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605BCE59916D00A501F2856A /* Pods-e-Cuidadora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5Y3DX3289;
+				INFOPLIST_FILE = "e-Cuidadora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cjsm.e-Cuidadora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246A448A2052AA54001F5121 /* Build configuration list for PBXProject "e-Cuidadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246A449F2052AA54001F5121 /* Debug */,
+				246A44A02052AA54001F5121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246A44A12052AA54001F5121 /* Build configuration list for PBXNativeTarget "e-Cuidadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246A44A22052AA54001F5121 /* Debug */,
+				246A44A32052AA54001F5121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246A44872052AA54001F5121 /* Project object */;
+}

@@ -1,0 +1,91 @@
+https://firebase.google.com/docs/ios/setup
+
+http://diegocavalca.com/category/intel-xdk-2/
+Objetivo:
+-------------
+Gerir o atendimento de profissionais de saude e Clientes (familiares)
+para poder acompanhar doentes internados nos hospitais e/ou em residências.
+O profissional pode realizar o acompanhamento dos internados nos  hospitais
+e em residências. Permitir controlar os remédios a serem ministrados.
+
+Ícones:
+----------
+Tela de abertura, cadastros, módulos.
+
+Banco de dados em Cloud (Mysql):
+===========================
+DB Name:
+--------------
+id4293061_atendimentohospitalar
+
+db_user name:  
+------------------
+id4293061_cmenezes
+
+password:
+--------------
+Cj161062
+
+db_host:
+----------
+localhost
+
+Hospedagem:
+------------------
+https://www.000webhost.com/members/website/tweediest-initiator/database
+Agora veja este site: http://www.000webhost.com/
+
+Cadastros:
+---------------
+- Clientes(familiares)   
+- Pr0fissionais de saude(Prestadores servico) 
+- Atendimento (cliente x profissionais) 
+- Perfis: cliente, administrador e profissional. 
+- Localidade (Estados e cidades) 
+
+Hierarquia das telas:
+----------------------
+1 - Launch screen - ok
+2 - Abas
+	--> Home 
+		- Autentica‹o 	
+		- Mostrar menu completo (fun›es administrador e outros)
+	--> Sobre
+
+Funcionalidades:
+-----------------------
+1. Módulo Administrador (somente o admin enxerga).
+- manuten‹o dos cadastros (incluir, alterar ou excluir com 
+informações de preço pela diária, indicador por, relação de
+trabalhos). - 3 dias
+- desenvolver um método para verificar o perfil no momento
+da ativação do módulo. Usar como parâmetro o id do Cliente ou do
+Profissional de saude.
+atribuição de perfis (0-administrador, 1-profissional, 2 -cliente.
+- 3 dias
+
+2. Módulo Cliente (somente Cliente/Admin enxerga)
+- Relação de profissionais agendados com horários e dias. - 3 dias
+- Relação de profissionais por estado (UF) e cidade. - 3 dias
+
+- Agendamento:  mostrar profissionais não agendados por estado e cidade,
+ligar para profissional ou agência, combinar preço, dia de pagamento e
+indicar o hospital de atendimento. Este agendamento pode ser utilizado tanto
+para atender em hospitais como em residências. - 3 dias
+
+- Verificação de antecendentes criminais - ver se existe webservice para 
+esta consulta.
+
+- Pagamento: utilizar Payment Processor (Paypal, Stripe, etc)  - 3 dias
+
+3. Módulo Profissional (somente Profissional/Admin enxerga).
+-  Relação de Clientes agendados com horários e dias e local. -  2 dias
+-  Relação de pagamentos por dia e banco. Utilizar Paypal, Stripe para
+obter as informações. - 2 dias
+- Atendimento: Relação de pacientes ordenados por local, dia e horário, com
+horários de ministração de remédios, horários de alimentação e de exercícios.
+Opção de mostrar evolução do paciente no dia- 2 dias
+
+Banco de dados:
+---------------------
+MySQL- acesso on-line Cloud
