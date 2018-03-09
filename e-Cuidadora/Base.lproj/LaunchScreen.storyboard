@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aberturanova.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJq-gj-x5r">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fJq-gj-x5r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Crw-fu-REa"/>
+                            <constraint firstItem="fJq-gj-x5r" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OMt-9o-52Q"/>
+                            <constraint firstItem="fJq-gj-x5r" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="m2Z-3o-oji"/>
+                            <constraint firstItem="fJq-gj-x5r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="un1-c7-msf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +37,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="aberturanova.png" width="1024" height="1024"/>
+    </resources>
 </document>
