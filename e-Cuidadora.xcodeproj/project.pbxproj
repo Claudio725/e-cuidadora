@@ -11,6 +11,8 @@
 		24279BA22052C12C00B6B983 /* ClientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24279BA12052C12C00B6B983 /* ClientesViewController.swift */; };
 		24279BA42052C24A00B6B983 /* PacientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24279BA32052C24A00B6B983 /* PacientesViewController.swift */; };
 		24279BA62052EDFB00B6B983 /* aberturanova.png in Resources */ = {isa = PBXBuildFile; fileRef = 24279BA52052EDFB00B6B983 /* aberturanova.png */; };
+		24279BAA2053075F00B6B983 /* CLAUDIO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24279BA92053075F00B6B983 /* CLAUDIO.jpg */; };
+		24279BAC205312A200B6B983 /* CLAUDIO.png in Resources */ = {isa = PBXBuildFile; fileRef = 24279BAB205312A200B6B983 /* CLAUDIO.png */; };
 		246A449A2052AA54001F5121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246A44992052AA54001F5121 /* Assets.xcassets */; };
 		246A449D2052AA54001F5121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246A449B2052AA54001F5121 /* LaunchScreen.storyboard */; };
 		246A44AB2052AB4A001F5121 /* AgendamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44A52052AB4A001F5121 /* AgendamentoViewController.swift */; };
@@ -21,6 +23,14 @@
 		246A44B02052AB4A001F5121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A44AA2052AB4A001F5121 /* ViewController.swift */; };
 		246A44B22052AB9C001F5121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246A44B12052AB9C001F5121 /* Main.storyboard */; };
 		246A44B42052ADBC001F5121 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 246A44B32052ADBC001F5121 /* Podfile */; };
+		24FC8C992056945300A70612 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C912056945300A70612 /* ajustes.png */; };
+		24FC8C9A2056945300A70612 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C922056945300A70612 /* back.png */; };
+		24FC8C9B2056945300A70612 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C932056945300A70612 /* camera.png */; };
+		24FC8C9C2056945300A70612 /* clinic.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C942056945300A70612 /* clinic.png */; };
+		24FC8C9D2056945300A70612 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C952056945300A70612 /* confirm.png */; };
+		24FC8C9E2056945300A70612 /* cuidadora.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C962056945300A70612 /* cuidadora.png */; };
+		24FC8C9F2056945300A70612 /* paciente.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C972056945300A70612 /* paciente.png */; };
+		24FC8CA02056945300A70612 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FC8C982056945300A70612 /* pay.png */; };
 		ED4F1C17F95AF57D6FEA099B /* Pods_e_Cuidadora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE77B6C1878BBADFA907330 /* Pods_e_Cuidadora.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +40,8 @@
 		24279BA12052C12C00B6B983 /* ClientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientesViewController.swift; sourceTree = "<group>"; };
 		24279BA32052C24A00B6B983 /* PacientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientesViewController.swift; sourceTree = "<group>"; };
 		24279BA52052EDFB00B6B983 /* aberturanova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aberturanova.png; sourceTree = "<group>"; };
+		24279BA92053075F00B6B983 /* CLAUDIO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CLAUDIO.jpg; sourceTree = "<group>"; };
+		24279BAB205312A200B6B983 /* CLAUDIO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CLAUDIO.png; sourceTree = "<group>"; };
 		246A448F2052AA54001F5121 /* e-Cuidadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Cuidadora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		246A44992052AA54001F5121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246A449C2052AA54001F5121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +54,14 @@
 		246A44AA2052AB4A001F5121 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		246A44B12052AB9C001F5121 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		246A44B32052ADBC001F5121 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		24FC8C912056945300A70612 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ajustes.png; sourceTree = "<group>"; };
+		24FC8C922056945300A70612 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		24FC8C932056945300A70612 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		24FC8C942056945300A70612 /* clinic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic.png; sourceTree = "<group>"; };
+		24FC8C952056945300A70612 /* confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confirm.png; sourceTree = "<group>"; };
+		24FC8C962056945300A70612 /* cuidadora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuidadora.png; sourceTree = "<group>"; };
+		24FC8C972056945300A70612 /* paciente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paciente.png; sourceTree = "<group>"; };
+		24FC8C982056945300A70612 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay.png; sourceTree = "<group>"; };
 		4DE77B6C1878BBADFA907330 /* Pods_e_Cuidadora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_Cuidadora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		605BCE59916D00A501F2856A /* Pods-e-Cuidadora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Cuidadora.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora.release.xcconfig"; sourceTree = "<group>"; };
 		CF6C9A763E467D6E1A7553CD /* Pods-e-Cuidadora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Cuidadora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-Cuidadora/Pods-e-Cuidadora.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24279BA82053075F00B6B983 /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				24279BA92053075F00B6B983 /* CLAUDIO.jpg */,
+				24279BAB205312A200B6B983 /* CLAUDIO.png */,
+			);
+			path = Fotos;
+			sourceTree = "<group>";
+		};
 		246A44862052AA54001F5121 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 		246A44912052AA54001F5121 /* e-Cuidadora */ = {
 			isa = PBXGroup;
 			children = (
+				24FC8C902056945300A70612 /* icones */,
+				24279BA82053075F00B6B983 /* Fotos */,
 				246A44A42052AB4A001F5121 /* Controllers */,
 				246A44992052AA54001F5121 /* Assets.xcassets */,
 				246A449B2052AA54001F5121 /* LaunchScreen.storyboard */,
@@ -106,6 +137,21 @@
 				24279BA32052C24A00B6B983 /* PacientesViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24FC8C902056945300A70612 /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				24FC8C912056945300A70612 /* ajustes.png */,
+				24FC8C922056945300A70612 /* back.png */,
+				24FC8C932056945300A70612 /* camera.png */,
+				24FC8C942056945300A70612 /* clinic.png */,
+				24FC8C952056945300A70612 /* confirm.png */,
+				24FC8C962056945300A70612 /* cuidadora.png */,
+				24FC8C972056945300A70612 /* paciente.png */,
+				24FC8C982056945300A70612 /* pay.png */,
+			);
+			path = icones;
 			sourceTree = "<group>";
 		};
 		9EA399E9E9766EE7289E030B /* Pods */ = {
@@ -188,10 +234,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FC8C9F2056945300A70612 /* paciente.png in Resources */,
+				24FC8C9C2056945300A70612 /* clinic.png in Resources */,
 				24279BA62052EDFB00B6B983 /* aberturanova.png in Resources */,
+				24FC8CA02056945300A70612 /* pay.png in Resources */,
+				24279BAA2053075F00B6B983 /* CLAUDIO.jpg in Resources */,
+				24FC8C9A2056945300A70612 /* back.png in Resources */,
 				246A44B22052AB9C001F5121 /* Main.storyboard in Resources */,
+				24FC8C9B2056945300A70612 /* camera.png in Resources */,
 				246A449D2052AA54001F5121 /* LaunchScreen.storyboard in Resources */,
 				246A44B42052ADBC001F5121 /* Podfile in Resources */,
+				24FC8C9E2056945300A70612 /* cuidadora.png in Resources */,
+				24FC8C9D2056945300A70612 /* confirm.png in Resources */,
+				24FC8C992056945300A70612 /* ajustes.png in Resources */,
+				24279BAC205312A200B6B983 /* CLAUDIO.png in Resources */,
 				246A449A2052AA54001F5121 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
